@@ -41,34 +41,19 @@ public class MainLoginModule implements LoginModule {
             String password = String.valueOf(((PasswordCallback) callbacks[1])
                     .getPassword());
 
-            // Here we validate the credentials against some
-            // authentication/authorization provider.
-            // It can be a Database, an external LDAP,
-            // a Web Service, etc.
-            // For this tutorial we are just checking if
-            // user is "user123" and password is "pass123"
-            if (name != null &&
-                    (name.equals("user123") || name.equals("user1234"))&&
-                    password != null &&
-                    password.equals("pass123")) {
+            // Authentication
+            if (name != null && password != null && password.equals("pass")) {
 
-                // We store the username and roles
-                // fetched from the credentials provider
-                // to be used later in commit() method.
-                // For this tutorial we hard coded the
-                // "admin" role
                 login = name;
                 userGroups = new ArrayList<String>();
-                userGroups.add(name.equals("user1234") ? "fake": "admin");
+                userGroups.add(name.equals("admin") ? "admin": "user");
                 return true;
             }
 
             // If credentials are NOT OK we throw a LoginException
             throw new LoginException("Authentication failed");
 
-        } catch (IOException e) {
-            throw new LoginException(e.getMessage());
-        } catch (UnsupportedCallbackException e) {
+        } catch (IOException | UnsupportedCallbackException e) {
             throw new LoginException(e.getMessage());
         }
 
@@ -99,6 +84,7 @@ public class MainLoginModule implements LoginModule {
     public boolean logout() throws LoginException {
         subject.getPrincipals().remove(userPrincipal);
         subject.getPrincipals().remove(rolePrincipal);
+
         return true;
     }
 

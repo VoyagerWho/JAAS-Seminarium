@@ -1,22 +1,29 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
     <title>Login</title>
+    <meta charset="utf-8" />
+    <link href="/JAAS-Seminarium-1.0-SNAPSHOT/public/static/css/main.397bf75d.css" rel="stylesheet">
+    <link rel="icon" href="/JAAS-Seminarium-1.0-SNAPSHOT/public/favicon.ico" />
 </head>
 <body>
-<form method=post action="j_security_check" >
-    <p>
-        <span>Username:</span>
-        <br />
-        <input type="text"  name= "j_username" >
-    </p>
-    <p>
-        <span>Password:</span>
-        <br />
-        <input type="password"  name= "j_password" >
-    </p>
-    <p>
-        <input type="submit" value="Login">
-    </p>
-</form>
+<div class="App">
+    <header class="App-header">
+        <form method=post action="j_security_check" >
+            <p>
+                <span>Username:</span>
+                <br />
+                <input type="text"  name= "j_username" >
+            </p>
+            <p>
+                <span>Password:</span>
+                <br />
+                <input type="password"  name= "j_password" >
+            </p>
+            <p>
+                <input type="submit" value="Login">
+            </p>
+        </form>
+    </header>
+</div>
 </body>
