@@ -9,8 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f626c86-e67d-4e85-8e64-e8c4fa2519fe" name="Changes" comment="Wstawienie aplikacji w React">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="6f626c86-e67d-4e85-8e64-e8c4fa2519fe" name="Changes" comment="Dokumentacja README">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +162,7 @@
       <workItem from="1685273845185" duration="1013000" />
       <workItem from="1685304713183" duration="2414000" />
       <workItem from="1685382893501" duration="6418000" />
-      <workItem from="1685472102957" duration="4408000" />
+      <workItem from="1685472102957" duration="4989000" />
     </task>
     <task id="LOCAL-00001" summary="Innit">
       <created>1685274713883</created>
@@ -192,7 +192,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685476249168</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dokumentacja README">
+      <created>1685476943205</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685476943205</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Dokumentacja README">
+      <created>1685477193294</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685477193294</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +227,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Innit" />
     <MESSAGE value="Wstawienie aplikacji w React" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wstawienie aplikacji w React" />
+    <MESSAGE value="Dokumentacja README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dokumentacja README" />
   </component>
 </project>
