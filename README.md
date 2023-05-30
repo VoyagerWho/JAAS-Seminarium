@@ -8,7 +8,7 @@
 
 ### Przykład aplikacji wykorzystującej moduł JAAS w celu ograniczenia dostępu do zasobów serwera
 
-W ramach demo przygotowana została prosta aplikacja w React.js, do której dostęp udzielony jest wyłącznie po prawidłowym zalogowaniu. \
+W ramach demo przygotowana została prosta aplikacja w React.js, do której dostęp udzielony jest wyłącznie po prawidłowym zalogowaniu się. \
 Dodatkowo przygotowany został zasób dostępny tylko dla wybranej roli. \
 Przykład opracowany został na serwerze TomEE w środowisku IntelliJ IDEA
 
@@ -31,3 +31,8 @@ Następnie wystarczy przenieść plik jaas.config do katalogu conf serwera TomEE
 lub zedytowanie flagi JVM:
 -Djava.security.auth.login.config="$CATALINA_BASE/conf/jaas.config" \
 tak, aby posiadała absolutną lokalizację pliku jaas.config
+
+## Użytkownicy
+
+Login: dowolny -> rola User (admin -> rola Admin) \
+Hasło: pass
