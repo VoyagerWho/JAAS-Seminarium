@@ -8,7 +8,7 @@ COPY pom.xml /home/app
 RUN mvn -f /home/app/pom.xml clean package
 RUN cp /home/app/target/*.war /home/app/ztti.war
 
-FROM tomee:ubuntu
+FROM tomee:17-jdk-9.0.0-M7-microprofile
 ENV CATALINA_BASE="/usr/local/tomee"
 ENV FILE_NAME="JAAS-Seminarium-1.0-SNAPSHOT.war"
 COPY jaas.config "$CATALINA_BASE/conf/jaas.config"
