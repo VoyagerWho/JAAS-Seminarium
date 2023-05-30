@@ -32,3 +32,17 @@ tak, aby posiadała absolutną lokalizację pliku jaas.config
 
 Login: dowolny -> rola User (admin -> rola Admin) \
 Hasło: pass
+
+## Uruchomienie z docker'a
+
+Zbuduj obraz:
+```
+docker build -t ztti .
+```
+
+Uruchom kontener:
+```
+docker run -p 8080:8080 ztti
+```
+
+Wyłączenie kontenera może zostać zrealizowane poprzez kombinację klawiszy Ctrl+C.
