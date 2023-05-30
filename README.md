@@ -1,9 +1,5 @@
 # ZTI Seminarium: Java Authentication and Authorization Services
 
-## Paweł Bielecki
-
-## Sławomir Klimowski
-
 ## Wstęp
 
 ### Przykład aplikacji wykorzystującej moduł JAAS w celu ograniczenia dostępu do zasobów serwera
