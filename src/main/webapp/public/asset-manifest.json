@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/JAAS-Seminarium-1.0-SNAPSHOT/public/static/css/main.397bf75d.css",
-    "main.js": "/JAAS-Seminarium-1.0-SNAPSHOT/public/static/js/main.76a7ee73.js",
+    "main.js": "/JAAS-Seminarium-1.0-SNAPSHOT/public/static/js/main.1005d335.js",
     "index.html": "/JAAS-Seminarium-1.0-SNAPSHOT/public/index.html",
     "main.397bf75d.css.map": "/JAAS-Seminarium-1.0-SNAPSHOT/public/static/css/main.397bf75d.css.map",
-    "main.76a7ee73.js.map": "/JAAS-Seminarium-1.0-SNAPSHOT/public/static/js/main.76a7ee73.js.map"
+    "main.1005d335.js.map": "/JAAS-Seminarium-1.0-SNAPSHOT/public/static/js/main.1005d335.js.map"
   },
   "entrypoints": [
     "static/css/main.397bf75d.css",
-    "static/js/main.76a7ee73.js"
+    "static/js/main.1005d335.js"
   ]
 }
