@@ -9,29 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f626c86-e67d-4e85-8e64-e8c4fa2519fe" name="Changes" comment="Innit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/zti/jaasseminarium/jaas/UserDataServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/public/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/public/static/css/main.397bf75d.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/public/static/css/main.397bf75d.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/public/static/js/main.76a7ee73.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/public/static/js/main.76a7ee73.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/public/static/js/main.76a7ee73.js.map" afterDir="false" />
+    <list default="true" id="6f626c86-e67d-4e85-8e64-e8c4fa2519fe" name="Changes" comment="Wstawienie aplikacji w React">
+      <change afterPath="$PROJECT_DIR$/jaas.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zti/jaasseminarium/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zti/jaasseminarium/PrivateServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zti/jaasseminarium/jaas/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zti/jaasseminarium/jaas/LogoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zti/jaasseminarium/jaas/MainLoginModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zti/jaasseminarium/jaas/MainLoginModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Private.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Admin.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,19 +48,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/stud2019/9klimowski/CRUD",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="TomEE 10.0.27" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 10.0.27" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/JAAS-Seminarium-1.0-SNAPSHOT/" />
@@ -181,7 +164,8 @@
       <workItem from="1685273776558" duration="60000" />
       <workItem from="1685273845185" duration="1013000" />
       <workItem from="1685304713183" duration="2414000" />
-      <workItem from="1685382893501" duration="6078000" />
+      <workItem from="1685382893501" duration="6418000" />
+      <workItem from="1685472102957" duration="3626000" />
     </task>
     <task id="LOCAL-00001" summary="Innit">
       <created>1685274713883</created>
@@ -190,15 +174,41 @@
       <option name="project" value="LOCAL" />
       <updated>1685274713883</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Wstawienie aplikacji w React">
+      <created>1685389419313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685389419314</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Wstawienie aplikacji w React">
+      <created>1685389499135</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685389499135</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Innit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Innit" />
+    <MESSAGE value="Wstawienie aplikacji w React" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wstawienie aplikacji w React" />
   </component>
 </project>
